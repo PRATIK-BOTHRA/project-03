@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekend Plans</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f7f9fc;
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        ul, ol {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+        ul li ol {
+            margin-top: 5px;
+        }
+        .category {
+            background-color: #ffffff;
+            padding: 15px 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .category:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+        }
+        .top-priorities {
+            background-color: #3498db;
+            color: white;
+            padding: 15px 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            h1 {
+                font-size: 1.8rem;
+            }
+            h2 {
+                font-size: 1.4rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>My Weekend Plans</h1>
+
+        <ul>
+            <li class="category">
+                <h2>Outdoor Activities</h2>
+                <ol>
+                    <li>Go for a morning hike</li>
+                    <li>Visit the park</li>
+                    <li>Ride a bicycle around town</li>
+                </ol>
+            </li>
+            <li class="category">
+                <h2>Movies to Watch</h2>
+                <ol>
+                    <li>The Grand Adventure</li>
+                    <li>Mystery of the Night</li>
+                    <li>Comedy Classics</li>
+                </ol>
+            </li>
+            <li class="category">
+                <h2>Foods to Try</h2>
+                <ol>
+                    <li>Homemade pizza</li>
+                    <li>Sushi rolls</li>
+                    <li>Chocolate cake</li>
+                </ol>
+            </li>
+        </ul>
+
+        <div class="top-priorities">
+            <h2>Top Priorities</h2>
+            <ol>
+                <li>Go for a morning hike</li>
+                <li>Watch The Grand Adventure</li>
+                <li>Try homemade pizza</li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>
